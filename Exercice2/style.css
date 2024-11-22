@@ -1,4 +1,102 @@
-html {
-    height: 100%;
-    width: 100%;
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+
+  /* color: #f4f4f4; */
+  margin: 0;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+/* Style du titre principal */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #ff0066;
+  text-transform: uppercase;
+}
+
+/* Style pour les paragraphes */
+p {
+  text-align: justify;
+  margin: 20px 0;
+  font-size: 1.1rem;
+  /* background-color: #1e1e1e; */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Image du groupe */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #ff0066;
+}
+
+/* Liste des membres */
+h2 {
+  color: #ff0066;
+  text-align: center;
+  margin-top: 40px;
+}
+section {
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+ul li {
+  margin: 10px 0;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Lien externe */
+a {
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: #ff0066;
+  color: #f4f4f4;
+  text-decoration: none;
+  border-radius: 5px;
+  max-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+  background-color: #ff4080;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Pour les écrans plus larges */
+@media (min-width: 768px) {
+  body {
+    padding: 0 50px;
+  }
+
+  p {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
 }

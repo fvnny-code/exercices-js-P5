@@ -1,0 +1,11 @@
+// Déclaration de variable pour la couleur bleue
+$blue: #0000ff;
+
+// Styles pour les éléments de liste
+ul {
+    li {
+        color: $blue; 
+        padding-left: 10px; 
+        margin-bottom: 15px; 
+    }
+}

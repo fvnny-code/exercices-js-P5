@@ -1,0 +1,41 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+header {
+  background-color: #ffcc99;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+main {
+  background-color: #e6f2ff;
+  margin: 20px;
+  display: flex;
+}
+aside {
+  background-color: #b3d9ff;
+  flex: 1;
+}
+section {
+  flex: 3;
+  margin: 20px;
+}
+footer {
+  background-color: #99cc99;
+}
+
+aside,
+footer {
+  border: 1px solid #ccc;
+}
+header,
+footer {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
